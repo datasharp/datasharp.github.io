@@ -25,6 +25,8 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+header {padding-bottom: 0;}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -3069,9 +3071,9 @@ input, select, textarea {
 					font-size: 1.75em;
 				}
 
-					#header h1 br {
-						display: inline;
-					}
+				
+
+					
 
 		/* Footer */
 
@@ -3127,7 +3129,7 @@ input, select, textarea {
 			}
 
 			h2 {
-				font-size: 1.2em;
+				font-size: 1em;
 			}
 
 			h3 {
