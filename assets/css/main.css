@@ -2075,7 +2075,7 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				content: 'View Full Project';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -2089,6 +2089,7 @@ input, select, textarea {
 				text-decoration: none;
 				top: 50%;
 				white-space: nowrap;
+				
 			}
 
 			.image.thumb:hover:after {
@@ -2576,7 +2577,41 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
+#header {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-align-items: -moz-flex-end;
+    -webkit-align-items: -webkit-flex-end;
+    -ms-align-items: -ms-flex-end;
+    align-items: flex-end;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    background-color: #1f1815;
+    background-attachment: scroll;
+    background-image: url("images/overlay.png");
+    background-position: right top; 
+    background-repeat: no-repeat;
+    background-size: auto 108%; 
+    color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    left: 0;
+    padding: 8em 4em;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 35%;
+}
+
+
+	/* #header {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2607,7 +2642,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
-	}
+	} */
 
 		#header > * {
 			-moz-flex-shrink: 0;
